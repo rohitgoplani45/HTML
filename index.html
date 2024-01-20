@@ -1,42 +1,433 @@
-<html>
-    <title> My Perfect song</title>
-    <head>
-        <main>
-            <body>
-                
-            <div class ="container">
-            <img src="image1.png" alt="img" height="450px" width="500px"> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+             * {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 150px;
+        }
+        nav ul  
+        { display: flex;
+            justify-content: center;
             
-                <h1>A perfect song</h1>
-               <p>A song is a voice played by singers with a conbination of many musical instruments. Song can be called as our partner in our celeberations , excitements and in each and every joy and sorrows of our life. Song is a voice which heals all through ouyr problems. Listening to songs is also a hobby for many people. Song is composed of beautiful lyrics , different lines sung by different singers in different pitches , different lines are played at different instruments at different nodes to make it a complete song. </p>
-                <h2>What is meant by a perfect song?</h2>
-                <img src="image2.png" wdith="300px">
-                <p> A perfect song is something which touches to someone's heart. The song directly connects with the soul, the song connects with their past experiences, the song connects with their life that the lyrics is going so deep into their heart. The lyrics of the the song is composed as it is something the listener needs to listen, it attracts the listener to listen it again and again. The tone by which it is been sung by the singer is very important to have a perfect song, the coordination of the voice with the musical instruments, the different nodes of the instruments which can make the song even better.  </p>
-                <p> Different art forms of song are as follows- 
-                    <ol>
-                    <li> Pop - Pop songs are all about uplifting rhythms and catchy melodies. The lyrics used in pop music are usually not that hard to understand and remember, making pop songs easy to sing along to.</li>
-                    <li> Classical - Simple diatonic harmony, contrasting moods, and balanced melodies are a few of the features of classical music. This genre is also characterized by homophonic texture and a focus on elegance. </li>
-                    <li> Hip-Hop and Rap - Hip-hop or rap music has distinctive rhythmic beats that are more defined on the bass line. The vocals are the star of the show here. Rappers sing at a fast tempo and deviate from the beat by a good margin.</li>
-                    <li> EDM (Electronic Dance Music) - Electronic Dance Music is mostly played in clubs. Its repetitive and uplifting beat makes it easy to dance to. This type of song is characterized by a four-beat measure kick or bass drum, followed by a bass drop or “the downbeat”.</li>
-                    <li> Country - Country music combines the cowboy music of the west with the folk music of the southeast. The genre is usually played on classical instruments, particularly those with strings. Country songs are characterized by simple lyrics and melancholy ballads, with themes that revolve around hard life, loneliness, and love. </li>
-                    <li> Metal -  Metal music is characterized by heavy sounds and the domination of electric and bass guitars. However, metal music has a faster tempo than classic rock and is generally more aggressive, with deeper sounds and higher distortions. Heavy metal songs also use dark themes that revolve around war, death, fear, and sadness. </li>
-                    <li> Gospel - Gospel music is one of the few music genres that are tied up to a particular religion, which is Christianity in this case. One prominent feature that makes gospel music what it is the overpowering Christian vocals. It also incorporates complex rhythms, harmony, and distinctive call and response patterns. </li>
-                    <li> Folk - Folk is a term used to describe traditional music originating from a specific region among local people in non-professional settings. It’s closely tied to geography, and people who sing their own folk music take great pride in it. However, since folk music varies greatly across cultures, there’s no specific way to describe how it sounds. Folk songs are often about national identity, patriotism, and culture.</li>
-                    <li> Jazz - Jazz music is defined by syncopated rhythms, polyphonic ensemble playing, bent notes, improvisation, unique voices, and pitch and timbre distortions. It’s widely believed that listening to jazz music has a relaxing effect and can affect your brain positively.</li>
-                    <li> Ballads - Ballads are songs that tell a story one way or another. They typically have a slow tempo and are full of emotions. This type of song isn’t tied to a particular genre; a ballad can be a pop, rock, or hip-hop song.</li>
-                    <li> But, the main point is irrespective of different forms of music, each musical form is unique in it's own existence and is respected by everyone. every individual get's connected to different art forms of music. Each and every person has it's own choice of music.  </li>
-                    </p>
-                </ol>
-                <h2>How retro songs affect me.</h2>
-                <img src="image3.png" wdith ="400px">
-                <p>
-                    Retro songs plays a major role in my life. Irrespective of which singer is singing , it affects me by the most meaningful lyrics ever. While listening to retro songs it personally tells me the meanings of life. I personally notice that there is very low background voice in retro songs and that too with old instruments like violin , tabla , trumpet , flute and many more. Low background voice makes me a better listener to capture the beauty of the instruments, it makes me a better listener towards the voice of the singer , the lyrics of the song and to get know the importance and relatibility of those songs in today's life. Listening to old songs helps me in understanding the true meaning of life. 
-                </p>
+            }
+            
+            nav ul li{
+                list-style: none;
+                margin: 0 20px;
+            }
+
+            nav ul li a{
+                text-decoration: none;
+                color: black;
+            }
+            nav ul li a:hover{
+                color: rgb(4, 142, 142);
+            }
+            nav ul li button{
+                height: 35px;
+                border-radius: 25px;
+                /* padding-left: 10px; */
+                width: 80px;
+                border: 1px;
+                outline: none;
+                cursor: pointer;
+                border-color: black;
+                text-align: center;
+                font-size: 20px;
+            }
+            .Car{
+                background-color: red;
+                color: white;
+               }
+            .Car:hover{
+                color: rgb(243, 237, 237);
+                background-color: rgb(185, 0, 0);
+            }     
+            .Bike:hover{
+                background-color: rgba(129, 124, 124, 0.781);
+            } 
+            
+            .main{
+                padding-top: 70px;
+                text-align: center;
+                font-size: 25px;
+                height: 200px;
+            }
+            .main p{
+                font-size: 35px;
+            }
+
+            .main-1{
                 
-            </div> 
-                <p 2> - Rohit Goplani</p>
-                <footer>© 2024 My perfect song blog</footer>
-            </body>
-        </main>
-    </head>
+                text-align: center;
+                background-color: rgba(255, 255, 0, 0.724);
+                padding-bottom: 50px;
+                font-size: 20px;
+            }
+            
+            .content1{
+            background-color: rgba(255, 255, 0, 0.724);
+            height: 450px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            }
+
+            .left1 img{
+                height: 400px;
+                width: 350px;
+                margin-left: 60px;
+            }
+
+            .right1 h1{
+                font-size: 50px;
+                color: rgb(168, 12, 98);
+                text-align: center;
+            }
+
+            .right1 p{
+                padding: 15px;
+                font-size: 30px;
+                color: rgb(168, 12, 98);
+                text-align: center;
+            }
+
+            .right1  a{
+           border-radius: 20px;
+           background-color: red;
+           color: white;
+           font-size: 20px;
+           width: 25px;
+           padding: 13px;
+           text-decoration: none;
+           align-content: center;
+            }
+
+            .right1 a:hover{
+                color: rgb(243, 237, 237);
+                background-color: rgb(185, 0, 0);
+            }
+            
+            .right1 button{
+                border: 0px;
+                margin-top: 20px;
+            }
+            
+            .content2 {
+                background-color: #99e9f2;
+            height: 450px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            }
+           
+            
+
+            .left2 h1{
+                font-size: 50px;
+                color:#067151;
+                text-align: center;
+            }
+
+            .left2 p{
+                padding: 15px;
+                font-size: 30px;
+                color: #067151;
+                text-align: center;
+            }
+            
+
+            .left2 a{
+                border-radius: 20px;
+           background-color: red;
+           color: white;
+           font-size: 20px;
+           width: 25px;
+           padding: 13px;
+           text-decoration: none;
+           align-content: center;
+            }
+
+            .left2 a:hover{
+                color: rgb(243, 237, 237);
+                background-color: rgb(185, 0, 0);
+            }
+
+            .left2 button{ 
+                border: 0px;
+                margin-top: 20px;
+            }
+
+            
+
+            .right2 img{
+                height: 400px;
+                width: 550px;
+                margin-right: 60px;
+            }
+
+
+
+            .content3{
+                background-color: #ffdeeb;
+            height: 450px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            }
+
+            
+
+            .left3 img{
+                height: 400px;
+                width: 350px;
+                margin-left: 60px;
+            }
+
+            .right3 h1{
+                font-size: 50px;
+                color: #c92a2a;
+                text-align: center;
+            }
+            .right3 p{
+                padding: 15px;
+                font-size: 30px;
+                color: #c92a2a;
+                text-align: center;
+            }
+            .right3 a{
+                border-radius: 20px;
+           background-color: red;
+           color: white;
+           font-size: 20px;
+           width: 25px;
+           padding: 13px;
+           text-decoration: none;
+           align-content: center;
+            }
+
+            .right3 a:hover{
+                color: rgb(243, 237, 237);
+                background-color: rgb(185, 0, 0);
+            }
+
+            .right3 button{
+                border: 0px;
+                margin-top: 20px;
+            }
+           
+            .Signup{
+                background-color:white;
+            height: 550px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            }
+            
+            .left4 img{
+                width: 850px;
+                height:550px;
+            }
+            
+            .right4{
+                text-align: center;
+                margin: 20px;
+                padding: 10px;
+            }
+
+            .right4 p{
+                text-align: left;
+                margin-left: 102px;
+                font-size: 17px;
+            }
+           
+            .rohit{
+                margin-left: 280px;
+                text-align: left;
+            }
+            .right4 a{
+                border-radius: 20px;
+           background-color: red;
+           color: white;
+           font-size: 15px;
+           width: 10px;
+           padding: 15px;
+           text-decoration: none;
+           align-content: center;
+           margin-top: 20px;
+            }
+
+            .right4 a:hover{
+                margin-top: 15px;
+                color: rgb(243, 237, 237);
+                background-color: rgb(185, 0, 0);
+            }
+
+            .right4 button{
+                margin-top: 15px;
+                border: 0px;
+                margin-top: 20px;
+            }
+             
+            .right4 h3{
+                margin-top: 30px;   
+            }
+
+            .right4 h2{
+                text-align: center;
+                font-size: 15px;
+            }
+
+            .boom img{
+                width: 15px;
+            }
+            
+            .bam img{
+                width: 15px;
+            }
+            .bam{
+                font-size: 17px;
+                margin-left: 10px;
+            }
+            .boom{
+                font-size: 17px;
+            }
+            :placeholder-shown{
+                border-radius: 5px;
+                border-color: rgb(40, 39, 39);
+                text-align: center;
+                font-size: 15px;
+                
+            }
+
+            footer ul{
+                text-align: center;
+                display: flex;
+                justify-content: space-around;
+                list-style: none;
+            }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <ul>
+                    <li><img src="pinterest.jpg" width="120px" height="50px"></li>
+                    <li><a href="#">Today</a></li>
+                    <li><a href="#">Watch</a></li>
+                    <li><a href="#">Explore</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><button class="Car">Log in</button></li>
+                <li><button class="Bike">Sign up</button></li>
+            </ul></div>
+        </nav>
+    </header>
+    
+    <div class="main">
+        <h1>GET YOUR NEXT</h1>
+            <p>DIY IDEA</p>
+    
+        </div>
+    <div class="main-1">
+        <p>Here's how it works</p>
+       </div>
+    
+       <div class="content1">
+       <div class="left1">
+        <img src="chicken.jpg">
+    </div>
+    
+    <div class="right1">
+       <h1> Search for an idea</h1>
+       <p>What do you want to try next?<br> Think of something you're into—like <br>“easy chicken dinner”—and see what you find.<br>   <button><a href="https://in.pinterest.com/ideas/food-and-drink/918530398158/">Explore</a></button></p>
+    
+    </div>
+    </div> 
+    
+    <div class="content2">
+
+     <div class="left2">
+        <h1>Save ideas <br> you like</h1>
+        <p>Collect your favorites so that<br> you can get back to them later.<br> <button><a href="https://in.pinterest.com/ideas/home-decor/935249274030/">Explore</a></button></p>
+        
+     </div>
+     <div class="right2">
+        <img src="img2.jpg">
+     </div>
+    </div>
+    
+    <div class="content3">
+    <div class="left3">
+        <img src="img3.png">
+    </div>
+      <div class="right3">
+         <h1>  See it, make it,<br> try it, do it</h1>
+         <p>The best part of Pinterest is discovering<br> new things and ideas from people<br> around the world.<br> <button><a href="https://in.pinterest.com/ideas/beauty/935541271955">Explore</a></button></p>
+        
+      </div>
+   </div>
+
+   <div class="Signup">
+       <div class="left4">
+           <img src="signup.png">
+       </div>
+       <div class="right4">
+          <h1>Welcome to Pinterest</h1>
+          <p class="rohit">Find new ideas to try</p>
+          <p>Email</p>
+          <h2><input type = "Email" placeholder= "Enter your email" > </h2>
+          <p>Password</p>
+          <h2><input type = "Password" placeholder= "Enter your password" > </h2>
+          <p>BIrthdate<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" /><span class="material-symbols-outlined">
+            info
+          </span></p>
+          <h2><input type = "Birthdate" placeholder= "DD/MM/YYYY" > </h2>
+          <button><a href="#">Continue</a></button>
+          <h3>OR</h3>
+          <button class="boom">
+          <img src="facebook.png">Continue with Facebook
+          </button > 
+          <button class="bam"><img src="google.png">Continue with Google</button>
+      </div>
+    </div>
+</body>
+<footer >
+    <ul>
+       <li>Terms of service</li>
+       <li>Privacy policy</li>
+       <li>Shop</li>
+       
+       <li>Iphone app</li>
+       <li>Andriod app</li>
+       <li>Users</li>
+       <li>Collections</li>
+       <li>Shopping</li>
+       <li>Watch</li>
+       <li>Cricket</li>
+       <li>Food</li>
+       <li>Help</li>
+       <li>Support</li>
+       <li>Contact</li>
+    </ul>
+</footer>
 </html>
